@@ -9,5 +9,8 @@ aliases = [
 ]
 +++
 
-## Interview Quesitons
-* [Collection](./interview-questions-collection)
+## Java Interview Quesitons
+
+* [Java Collection](./interview-questions-collection)
+
+<br/>
