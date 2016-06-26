@@ -13,4 +13,3 @@ aliases = [
 
 * [Java Collection](./interview-questions-collection)
 
-<br/>

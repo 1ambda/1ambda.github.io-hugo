@@ -15,4 +15,3 @@ aliases = [
 * [Javascript Inheritance](javascript-inheritance)
 * [REST API: Put vs Post](rest-api-put-vs-post)
 
-<br/>
