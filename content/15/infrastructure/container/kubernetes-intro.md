@@ -1,6 +1,6 @@
 +++
 date = "2016-08-06T20:41:38+09:00"
-next = "../"
+prev = "../../"
 title = "Kubernetes: Intro"
 toc = true
 weight = 50
@@ -98,8 +98,6 @@ Server Version: version.Info{Major:"1", Minor:"3", GitVersion:"v1.3.3", GitCommi
 
 조금 더 자세히 보면, 
 
-![](https://raw.githubusercontent.com/1ambda/1ambda.github.io/master/assets/images/infra-kubernetes/intro/arc_k8s_simple.jpg)
-
 - master 에는 작업을 위한 [api server](http://kubernetes.io/docs/admin/kube-apiserver/), 
 state 를 관리하기 위한 분산 저장소 (default 로 [etcd](https://coreos.com/etcd/)), 
 [scheduler](http://kubernetes.io/docs/admin/kube-scheduler/), 
@@ -130,8 +128,6 @@ docker 에서 container 끼리 통신하려면 같은 network 위에 있도록 �
 pod 의 종료, 삭제 관련해서는 [Termination of Pods](http://kubernetes.io/docs/user-guide/pods/#termination-of-pods) 를 참고하시면 됩니다.
 
 <br/>
-
-![](https://raw.githubusercontent.com/1ambda/1ambda.github.io/master/assets/images/infra-kubernetes/intro/physical-layout.png)
 
 위에서 k8s 가 auto-restart 등을 해준다고 했었는데 테스트 해보겠습니다. 그 전에 먼저 클러스터가 정상적으로 세팅이 되었는지 확인해 보겠습니다. 저는 minikube 를 이용해서 로컬에서 실행했으므로 아래와 같은 결과가 나옵니다. 
 kubectl 을 여러 클러스터 중 하나에 붙어서 커맨드를 날릴 수 있도록 도와주는 docker-machine 정도로 이해하시면 됩니다. (단위가 다르지만)
